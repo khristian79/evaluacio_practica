@@ -1,0 +1,179 @@
+:root { /* Desclara variables para toda extructura, tiene más prioridad que html*/
+  
+    --bnavegador: hsla(55, 53%, 66%, 0.855);
+    --efechover:  #ffffff4d;
+    --sectorifooter: #eec886c2;
+    --h1: #eec886c2;
+    --h2: #a39d5c;
+    --h3: #d1ca78;
+    --main_p: #3d3b22;
+}
+
+
+.style {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+   /* MENU NAVEGACION */
+.container__menu {
+    width: 100%; 
+    height: 45px; 
+    background: var(--bnavegador);
+    padding: 0px 20px; 
+    
+    }
+    
+    .menu {
+    max-width: 1200px; 
+    margin:auto; 
+    height: 100% 
+    
+    }
+
+    nav {
+        height: 100%; 
+        
+        }
+        
+        nav > ul { 
+        height: 100%;
+        display:flex;
+        justify-content:space-evenly;
+        
+        }
+        
+        nav > ul > li { 
+
+        list-style: none;       
+        position:static; 
+        
+        }
+        
+        
+        nav > ul > li a {
+         width:100%;
+         height: auto; 
+         padding: 15px; 
+         align-items:center;
+          
+         display:block; 
+        text-transform: uppercase; 
+        
+        }
+        
+        nav>ul>li>a:hover {
+            transform: scale(1.1); 
+            background: var(--efechover); 
+            
+        }
+
+        
+.width-l {
+    max-width: var(--width-l);
+    margin: 0 auto;
+  }
+
+  
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.section-text {
+    padding: 0 2rem;
+  }
+
+  
+main section:last-child h2 {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 2rem;
+
+ /*   */
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 9vw;
+    color: var(--h1);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.25em;
+    color: var(--main_p);
+}
+
+main {
+    padding: 20px;
+}
+
+.seccion-aves {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3.5em;
+    color: var(--h2);
+    margin-bottom: 10px;
+}
+
+.aves {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ave {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.ave img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ave h3 {
+    color: var(--h3);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+}
+  }
